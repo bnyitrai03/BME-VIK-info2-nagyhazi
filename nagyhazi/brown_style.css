@@ -1,0 +1,95 @@
+main {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+    padding-bottom: 100px;
+}
+
+footer {
+    width: 100%;
+    padding-top: 10px;
+    height: 50px;
+    background-color: #704214; 
+    color: #fff;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #704214; 
+    color: #fff;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 10px;
+}
+
+.menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu a:hover {
+    background-color: #5c3810; 
+}
+
+.picture {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table {
+    border-collapse: collapse;
+    margin-top: 100px;
+    width: 100%;
+    color: #fff;
+    background-color: #704214; 
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #fff;
+}
+
+.table th {
+    background-color: #59380d; 
+    color: #fff;
+}
+
+.table tr:hover {
+    background-color: #5c3810; 
+}
+
+.search_bar {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+}
